@@ -9,3 +9,12 @@
   width: 100vw;
   background-image: url(./image/seconds.jpg);
 }
+.two {
+  height: 80vh;
+  width: 100vw;
+  position: absolute;
+  background-image: linear-gradient(rgb(250, 243, 243, 0.1), black);
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+}
