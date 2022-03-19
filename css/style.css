@@ -44,3 +44,15 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.boxone {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.boxone #para1 {
+  display: none;
+  color: black;
+}
+.boxone h5 {
+  color: coral;
+}
