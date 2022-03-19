@@ -58,6 +58,6 @@ $(".boxsix").hover(
   },
   function () {
     $(".topthree").css("display", "none");
-    $(".box").animate({ bottom: "0px" });
+    $(".boxsix").animate({ bottom: "0px" });
   }
 );
