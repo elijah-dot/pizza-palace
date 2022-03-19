@@ -36,3 +36,11 @@ p {
   font-family: "Caveat", cursive;
   color: orange;
 }
+.three h1 {
+  font-size: 60px;
+}
+.three .container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
