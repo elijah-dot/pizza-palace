@@ -18,3 +18,8 @@
   align-items: center;
   color: aliceblue;
 }
+.text {
+  margin-top: 40px;
+  font-family: "Caveat", cursive;
+  font-size: 100px;
+}
