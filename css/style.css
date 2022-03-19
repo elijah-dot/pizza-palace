@@ -26,3 +26,13 @@
 .text span {
   color: orange;
 }
+p {
+  font-family: "Caveat", cursive;
+}
+.three {
+  height: 60vh;
+  width: 100vw;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  color: orange;
+}
