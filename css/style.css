@@ -94,3 +94,43 @@ h6 {
   font-family: "Caveat", cursive;
   font-size: 40px;
 }
+
+.bagone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bagone .boxfour {
+  margin-top: 50px;
+  border: black 1px solid;
+  height: 190px;
+  width: 170px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  background-image: url(./image/dontwo.jpeg);
+}
+.boxfour .picone {
+  height: 40vh;
+  width: 20vw;
+}
+.topone {
+  position: absolute;
+  height: 190px;
+  width: 170px;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+  
+}
+.topone button{
+  border-radius: 5px;
+  color: orange;
+  background-color: rgb(0, 0, 0, 0.1) ;
+  border: transparent;
+}
+.topone button:hover{
+  background-color: yellowgreen;
+}
