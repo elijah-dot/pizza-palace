@@ -108,7 +108,7 @@ h6 {
   border-radius: 10px;
   text-align: center;
   position: relative;
-  background-image: url(./image/dontwo.jpeg);
+  background-image: url(../image/dontwo.jpeg);
 }
 .boxfour .picone {
   height: 40vh;
@@ -123,14 +123,95 @@ h6 {
   border-radius: 10px;
   text-align: center;
   display: none;
-  
 }
-.topone button{
+.topone button {
   border-radius: 5px;
   color: orange;
-  background-color: rgb(0, 0, 0, 0.1) ;
+  background-color: rgb(0, 0, 0, 0.1);
   border: transparent;
 }
-.topone button:hover{
+.topone button:hover {
   background-color: yellowgreen;
+}
+/* //box five */
+.bagone .boxfive {
+  margin-top: 50px;
+  border: black 1px solid;
+  height: 190px;
+  width: 170px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  background-image: url(../image/dontwo.jpeg);
+}
+.boxfive .pictwo {
+  height: 40vh;
+  width: 20vw;
+}
+.toptwo {
+  position: absolute;
+  height: 190px;
+  width: 170px;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+}
+.toptwo button {
+  border-radius: 5px;
+  color: orange;
+  background-color: rgb(0, 0, 0, 0.1);
+  border: transparent;
+}
+.toptwo button:hover {
+  background-color: yellowgreen;
+}
+/* boxsix */
+
+.bagone .boxsix {
+  margin-top: 50px;
+  border: black 1px solid;
+  height: 190px;
+  width: 170px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  background-image: url(../image/dontwo.jpeg);
+}
+.boxsix .pithree {
+  height: 40vh;
+  width: 20vw;
+}
+.topthree {
+  position: absolute;
+  height: 190px;
+  width: 170px;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+}
+.topthree button {
+  border-radius: 5px;
+  color: orange;
+  background-color: rgb(0, 0, 0, 0.1);
+  border: transparent;
+}
+.topthree button:hover {
+  background-color: yellowgreen;
+}
+.four .result,
+#pizza,
+#number,
+#price {
+  margin-top: 30px;
+  color: azure;
+  font-family: "Caveat", cursive;
+}
+#pizza,
+#number,
+#price {
+  color: orange;
 }
