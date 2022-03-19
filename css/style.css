@@ -7,7 +7,7 @@
   position: relative;
   height: 80vh;
   width: 100vw;
-  background-image: url(./image/seconds.jpg);
+  background-image: url(../image/seconds.jpg);
 }
 .two {
   height: 80vh;
@@ -22,4 +22,7 @@
   margin-top: 40px;
   font-family: "Caveat", cursive;
   font-size: 100px;
+}
+.text span {
+  color: orange;
 }
