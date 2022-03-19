@@ -69,3 +69,16 @@ p {
 h6 {
   color: coral;
 }
+
+.boxthree {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.boxthree #para3 {
+  display: none;
+  color: black;
+}
+.boxthree h5 {
+  color: coral;
+}
