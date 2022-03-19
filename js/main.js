@@ -26,3 +26,5 @@ $("#para3").click(function () {
   $("#ef").css("display", "block");
   $("#para3").css("display", "none");
 });
+
+// section four
