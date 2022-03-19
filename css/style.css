@@ -56,3 +56,16 @@ p {
 .boxone h5 {
   color: coral;
 }
+.boxtwo {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+.boxtwo #para2 {
+  display: none;
+  color: black;
+}
+.boxtwo h5,
+h6 {
+  color: coral;
+}
