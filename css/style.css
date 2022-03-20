@@ -6,6 +6,7 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
+  
 }
 .one {
   background-size: cover;
@@ -228,7 +229,7 @@ h6 {
 /* section five */
 
 .five {
-  height: 150vh;
+  height:110vh;
   width: 100vw;
   text-align: center;
   background-color: azure;
