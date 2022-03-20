@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 .one {
   background-size: cover;
@@ -88,10 +88,11 @@ h6 {
 }
 /* section four */
 .four {
-  height: 100vh;
+  height: 60vh;
   width: 100vw;
   background-color: black;
   text-align: center;
+  position: relative;
 }
 .four h1 {
   color: orange;
@@ -183,7 +184,7 @@ h6 {
   position: relative;
   background-image: url(../image/dontwo.jpeg);
 }
-.boxsix .pithree {
+.boxsix .picthree {
   height: 40vh;
   width: 20vw;
 }
@@ -206,6 +207,7 @@ h6 {
 .topthree button:hover {
   background-color: yellowgreen;
 }
+
 .four .result,
 #pizza,
 #number,
@@ -219,6 +221,7 @@ h6 {
 #price {
   color: orange;
 }
+/* sectionfour*/
 
 /* section five */
 
@@ -305,27 +308,34 @@ h6 {
   width: 200px;
   display: flex;
   height: 250px;
-  
+
   padding: 0;
 }
-.mine{
-    
-    width: 100px;
+.mine {
+  width: 100px;
 }
-.mytext{
-    margin-top: 10px;
+.mytext {
+  margin-top: 10px;
 }
-.mytext h6{
-    margin-top: 30px;
+.mytext h6 {
+  margin-top: 30px;
 }
 .emailchimp {
   width: 200px;
   float: right;
 }
-.footer{
-    height: 6vh;
-    width: 100vw;
-    background-color: aliceblue;
-    display: flex;
-    justify-content: space-evenly;
+.footer {
+  height: 6vh;
+  width: 100vw;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+.show {
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  background-image: url(../image/testing.jpg);
+  color: azure;
+  display: none;
 }

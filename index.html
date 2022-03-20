@@ -143,7 +143,7 @@
               doughs, .
             </p>
             <h6>1500Ksh</h6>
-            <button id="triger2">order</button>
+            <button id="triger">order</button>
           </div>
         </div>
         <!-- boxsix -->
@@ -156,14 +156,109 @@
               buffalo ...
             </p>
             <h6>2500Ksh</h6>
-            <button id="triger3">order</button>
+            <button id="triger">order</button>
           </div>
         </div>
       </div>
-      <h3 class="result">
+    
+      <!-- <h3 class="result">
         your order:<span id="pizza"></span> <br />number:
         <span id="number"></span> <br />price : <span id="price"></span>
-      </h3>
+      </h3> -->
+    </section>
+    <!-- sectionform -->
+    <section class="show text-center">
+      <div class="orders" id="order">
+        <br />
+        <h1 class="" id="heading">Order Pizza</h1>
+        <br />
+        <div class="form-group row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8 order-overlay">
+            <form class="col-sm-6 offset-sm-3">
+              <label> Pizza:</label>
+              <select class="form-control size" required>
+                <option label="Small" value="100">Small</option>
+                <option label="Medium" value="200">Medium</option>
+                <option label="Large" value="300">Large</option></select
+              ><br />
+              <label>Toppings:</label>
+              <select class="form-control toppings" required>
+                <option label="Bacon" value="100">Bacon</option>
+                <option label="Mushrooms" value="300">Mushrooms</option>
+                <option label="Chicken" value="300">Chicken</option></select
+              ><br />
+              <label> Crust:</label>
+              <select class="form-control crust" required>
+                <option label="Crispy" value="300">Crispy</option>
+                <option label="Gluten-free" value="100">Gluten-free</option>
+                <option label="Stuffed" value="200">Stuffed</option>
+              </select>
+            </form>
+            <br />
+            <div class="text-center">
+              <button class="btn btn-info order" type="submit">Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <table class="tab">
+        <thead>
+          <tr>
+            <th scope="col">Order No.</th>
+            <th scope="col">Pizza Size</th>
+            <th scope="col">Toppings</th>
+            <th scope="col">Crust</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody id="pizza_">
+          <tr>
+            <th scope="row">1</th>
+            <td id="size"></td>
+            <td id="toppings"></td>
+            <td id="crust"></td>
+            <td id="total"></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="add">
+        <div class="text-center">
+          <button class="btn btn-info add-pizza" type="submit">
+            Add Pizza
+          </button>
+          <div class="infom">
+            <h4>The total is: <span></span></h4>
+            <h6>
+              Would you like it to be delivered for an additional fee
+              of<b>200</b>?
+            </h6>
+            <h5>
+              Delivery will be done soon <br />Thankyou for trusting us
+              <span></span>
+            </h5>
+            <div class="location text-center">
+              <p>Enter your Location</p>
+              <input
+                type="text"
+                size="20"
+                placeholder="Please provide your location"
+                required
+              />
+              <button class="btn btn-info complete" type="submit">
+                Complete
+              </button>
+            </div>
+          </div>
+          <button class="btn btn-info yes" type="submit">Yes</button>
+          <button class="btn btn-info no" type="submit">No</button>
+        </div>
+        <div class="text-right">
+      
+        </div>
+      </div>
     </section>
     <!-- section five -->
     <section class="five">
@@ -222,46 +317,122 @@
       <h3>contact us through :</h3>
       <div class="emailchimp">
         <!-- Bregin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; font:14px Helvetica,Arial,sans-serif;  width:600px;}
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+        <link
+          href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <style type="text/css">
+          #mc_embed_signup {
+            background: #fff;
+            font: 14px Helvetica, Arial, sans-serif;
+            width: 600px;
+          }
+          /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://gmail.us14.list-manage.com/subscribe/post?u=a066bd80a7accf46867f34325&amp;id=ac9b8e038a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h2>Subscribe</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-	<div id="mce-responses" class="clear foot">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a066bd80a7accf46867f34325_ac9b8e038a" tabindex="-1" value=""></div>
-        <div class="optionalParent">
-            <div class="clear foot">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                <p class="brandingLogo"><a href="http://eepurl.com/hW1999" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+        </style>
+        <div id="mc_embed_signup">
+          <form
+            action="https://gmail.us14.list-manage.com/subscribe/post?u=a066bd80a7accf46867f34325&amp;id=ac9b8e038a"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <div id="mc_embed_signup_scroll">
+              <h2>Subscribe</h2>
+              <div class="indicates-required">
+                <span class="asterisk">*</span> indicates required
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL"
+                  >Email Address <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="required email"
+                  id="mce-EMAIL"
+                />
+              </div>
+              <div id="mce-responses" class="clear foot">
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display: none"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display: none"
+                ></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px" aria-hidden="true">
+                <input
+                  type="text"
+                  name="b_a066bd80a7accf46867f34325_ac9b8e038a"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <div class="optionalParent">
+                <div class="clear foot">
+                  <input
+                    type="submit"
+                    value="Subscribe"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="button"
+                  />
+                  <p class="brandingLogo">
+                    <a
+                      href="http://eepurl.com/hW1999"
+                      title="Mailchimp - email marketing made easy and fun"
+                      ><img
+                        src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"
+                    /></a>
+                  </p>
+                </div>
+              </div>
             </div>
+          </form>
         </div>
-    </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
+        <script
+          type="text/javascript"
+          src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+        ></script>
+        <script type="text/javascript">
+          (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = "EMAIL";
+            ftypes[0] = "email";
+            fnames[1] = "FNAME";
+            ftypes[1] = "text";
+            fnames[2] = "LNAME";
+            ftypes[2] = "text";
+            fnames[3] = "ADDRESS";
+            ftypes[3] = "address";
+            fnames[4] = "PHONE";
+            ftypes[4] = "phone";
+            fnames[5] = "BIRTHDAY";
+            ftypes[5] = "birthday";
+          })(jQuery);
+          var $mcj = jQuery.noConflict(true);
+        </script>
+        <!--End mc_embed_signup-->
       </div>
 
       <div class="conections">
         <div class="mine">
-          <img src="image/facebookf.png" alt="" height="50vh" width="50vw">
-          <img src="image/instagramf.png" alt="" height="50vh" width="50vw">
-          <img src="image/twitterf.png" alt="" height="50vh" width="50vw">
-          <img src="image/whatsappf.png" alt="" height="50vh" width="50vw">
+          <img src="image/facebookf.png" alt="" height="50vh" width="50vw" />
+          <img src="image/instagramf.png" alt="" height="50vh" width="50vw" />
+          <img src="image/twitterf.png" alt="" height="50vh" width="50vw" />
+          <img src="image/whatsappf.png" alt="" height="50vh" width="50vw" />
         </div>
         <div class="mytext">
           <h6>facebook <span>01105674</span></h6>
@@ -269,11 +440,7 @@
           <h6>twitter <span>01105674</span></h6>
           <h6>whatsapp <span>01105674</span></h6>
         </div>
-        
-        
       </div>
-
-
     </section>
     <section class="footer">
       <h6>Copyright 2022</h6>
