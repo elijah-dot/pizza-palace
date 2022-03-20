@@ -35,7 +35,7 @@
 
 ### Installation process
 
-[Go back to the top](#akan-names)
+[Go back to the top](#pizza-names)
 
 ## Technology used
 
@@ -75,12 +75,12 @@
 
 ## licence
 
-copyright (c) [2019] [https://github.com/elijah-dot/pizza-place/blob/master/LICENSE]
+copyright (c) [2019] [https://github.com/elijah-dot/pizza-palace/blob/master/LICENSE]
 
 ## authors info
 
 linked - [Elijah Mwangi Wangu]
-(https://github.com/elijah-dot/pizza-place)
+(https://github.com/elijah-dot/pizza-palace)
 
 email - [Elijah Mwangi Wangu]
 (elijahwangu91@gmail.com
